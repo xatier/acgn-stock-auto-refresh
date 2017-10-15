@@ -21,7 +21,8 @@
         var c = document.querySelectorAll("body > div.fixed-bottom > div")[0];
         while(c.childNodes.length > 7) {
             c.removeChild(c.lastChild.previousSibling.previousSibling);
-        }}, 3000);
+        }
+    }, 3000);
 })();
 
 
