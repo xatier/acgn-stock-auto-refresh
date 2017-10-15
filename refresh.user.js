@@ -13,7 +13,7 @@
     // 5 min
     var numMinutes = 5*60;
     setTimeout (function() {
-            window.top.document.location.replace(window.top.document.location.href);
+        window.top.document.location.replace(window.top.document.location.href);
     }, numMinutes*1000);
 
     // clear ads
@@ -21,7 +21,7 @@
         var c = document.querySelectorAll("body > div.fixed-bottom > div")[0];
         while(c.childNodes.length > 7) {
             c.removeChild(c.lastChild.previousSibling.previousSibling);
-    }}, 3000);
+        }}, 3000);
 })();
 
 
