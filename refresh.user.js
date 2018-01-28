@@ -18,10 +18,7 @@
 
     // clear ads
     setTimeout (function() {
-        var c = document.querySelectorAll("body > div.fixed-bottom > div")[0];
-        while(c.childNodes.length > 7) {
-            c.removeChild(c.lastChild.previousSibling.previousSibling);
-        }
+        $('body > div.fixed-bottom > div > div.snackbar-container').remove();
     }, 3000);
 })();
 
