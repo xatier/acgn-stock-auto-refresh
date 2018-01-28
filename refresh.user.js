@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         acgn stock auto refresh
 // @namespace    https://github.com/xatier/acgn-stock-auto-refresh
-// @version      0.1
+// @version      0.2
 // @description  get my 1000 salary everyday!
 // @author       @xatier
 // @match        https://acgn-stock.com/*
